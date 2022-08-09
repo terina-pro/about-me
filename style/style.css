@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background-img {
+    background-image: url('https://phonoteka.org/uploads/posts/2022-02/1645191477_6-phonoteka-org-p-fon-svetlo-fioletovii-nezhnii-6.jpg');
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.title__img {
+    max-width: 300px;
+}
+
+.title__caption {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.social-networks__item {
+    font-size: 40px;
+    color: #f7b100;
+}
+
+.social-networks__item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.about-me {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.list {
+    margin: 20px 0;
+}
